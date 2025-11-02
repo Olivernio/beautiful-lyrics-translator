@@ -1,0 +1,1 @@
+{"version":3,"file":"SpotifyLyricsAPI.d.ts","sourceRoot":"","sources":["../../src/api/SpotifyLyricsAPI.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAoB,MAAM,iBAAiB,CAAC;AAIlE,qBAAa,gBAAgB;IACrB,SAAS,CAAC,OAAO,EAAE,MAAM,GAAG,OAAO,CAAC,aAAa,GAAG,IAAI,CAAC;IA+D/D,OAAO,CAAC,+BAA+B;CAoDxC"}

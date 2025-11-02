@@ -1,0 +1,27 @@
+{
+  "name": "beautiful-lyrics-translator",
+  "version": "0.1.0",
+  "description": "Spicetify extension for real-time lyrics translation",
+  "main": "dist/extension.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch",
+    "deploy": "npm run build && copy dist\\extension.js ..\\beautiful-lyrics-translator.js && spicetify apply",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "css-loader": "^6.8.1",
+    "sass": "^1.69.0",
+    "sass-loader": "^13.3.0",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.3.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.0"
+  },
+  "dependencies": {},
+  "keywords": ["spicetify", "spotify", "lyrics", "translation"],
+  "author": "Oliver",
+  "license": "MIT"
+}

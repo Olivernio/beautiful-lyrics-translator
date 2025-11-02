@@ -1,0 +1,25 @@
+// Importar todos los estilos
+@import './lyrics.scss';
+@import './translation.scss';
+@import './effects.scss';
+
+// Variables globales para el plugin
+:root {
+  --blt-translation-opacity: 0.85;
+  --blt-translation-delay: 0ms;
+  --blt-background-color: rgba(var(--color-teal-500-rgb), 0.1);
+  --blt-side-vocal-color: rgba(var(--color-warning-rgb), 0.7);
+}
+
+// Contenedor principal del plugin
+.beautiful-lyrics-translator {
+  position: relative;
+  width: 100%;
+  
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-32);
+    padding: var(--space-16);
+  }
+}

@@ -1,0 +1,33 @@
+// Estilos para las líneas traducidas
+.blt-translation {
+  display: block !important;
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+  color: #00ff00 !important; /* Verde brillante temporal para debugging */
+  background: rgba(255, 0, 0, 0.3) !important; /* Fondo rojo temporal */
+  font-style: italic;
+  line-height: 1.5;
+  margin-top: 12px !important;
+  padding: 8px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  text-align: center;
+  border: 2px solid yellow !important; /* Borde amarillo temporal */
+  
+  // Cuando la línea está activa (siendo cantada)
+  &.blt-active {
+    color: #ffff00 !important;
+    font-weight: 700 !important;
+  }
+}
+
+// Adaptarse al tema oscuro
+@media (prefers-color-scheme: dark) {
+  .blt-translation {
+    color: rgba(255, 255, 255, 0.6);
+    
+    &.blt-active {
+      color: rgba(255, 255, 255, 0.9);
+    }
+  }
+}

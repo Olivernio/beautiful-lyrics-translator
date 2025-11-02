@@ -1,0 +1,19 @@
+{
+  "name": "Beautiful Lyrics Translator",
+  "description": "Traduce las letras de Spotify en tiempo real, integrándose con Beautiful Lyrics",
+  "version": "0.1.0",
+  "author": "Oliver",
+  "main": "dist/extension.js",
+  "dependencies": [],
+  "permissions": [
+    "lyrics",
+    "translation",
+    "ui"
+  ],
+  "integrations": {
+    "beautifulLyrics": {
+      "required": false,
+      "enhanced": true
+    }
+  }
+}

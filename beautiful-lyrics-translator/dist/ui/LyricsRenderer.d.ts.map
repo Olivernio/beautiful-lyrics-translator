@@ -1,0 +1,1 @@
+{"version":3,"file":"LyricsRenderer.d.ts","sourceRoot":"","sources":["../../src/ui/LyricsRenderer.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,gBAAgB,EAAE,MAAM,sBAAsB,CAAC;AAIxD,qBAAa,cAAc;IAEzB,kBAAkB,CAAC,KAAK,EAAE,gBAAgB,EAAE,GAAG,IAAI;IA0CnD,iBAAiB,IAAI,IAAI;IAMzB,gBAAgB,CAAC,KAAK,EAAE,MAAM,GAAG,IAAI;CAWtC"}
